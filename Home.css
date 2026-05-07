@@ -1,0 +1,68 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Main Title */
+h1:first-of-type {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+/* Section Titles */
+h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #4caf50;
+}
+
+/* Subtitles */
+h3, h4 {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Links */
+a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+a:hover {
+    background-color: #4caf50;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Paragraphs inside links */
+a p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Normal paragraphs */
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
